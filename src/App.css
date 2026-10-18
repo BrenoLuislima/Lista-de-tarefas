@@ -19,6 +19,7 @@
     color: #333;
     padding: 10px;
     border-radius: 6px;
+    overflow-wrap: anywhere;
 }
 
 .tarefa button {
