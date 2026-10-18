@@ -1,0 +1,35 @@
+.lista-tarefas {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.tarefa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+
+}
+
+.tarefa span {
+    flex: 1;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.tarefa button {
+    flex-shrink: 0;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
